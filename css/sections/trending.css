@@ -1,0 +1,164 @@
+.trending {
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.shushi__container,
+.decoration__sushi-img {
+    padding: 36px 64px;
+}
+
+.first__shushi {
+    display: flex;
+    width: 100%;
+    min-height: 624px;
+}
+
+.second_part{
+    flex-direction: row-reverse;
+    /* background-image: url('../../assets/about_bg2.png'); */
+}
+
+
+
+.shushi__container {
+    display: flex;
+
+    flex: 1;
+    gap: 24px;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.decoration__sushi-img {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background: url('../../assets/japanese_sushi.png') no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* background-position-x: 200px; */
+    background-color: var(--color-white);
+    position: relative;
+}
+
+.second__part-bg{ 
+    background: url('../../assets/about_bg2.png') no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: var(--color-white);
+}
+.decoration__sushi-img img {
+    width: 244px;
+    height: 260px;
+    object-fit: contain;
+    position: relative;
+}
+
+.trending__list-item {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.list__item{
+    width: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+
+}
+
+div.list__item-chip {
+    background-color: var(--primary-color);
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+
+}
+.list__item-chip img {
+    width: 12px;
+    height: 12px;
+    object-fit: contain;
+}
+
+.discover__button{
+    background-color: black;
+    color: var(--color-white);
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    top: 44%;
+    left: 44%;
+    z-index: 1;
+    border-radius: 100%;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.discover__button-text{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.vertical__arrow-first{
+    position: absolute;
+    left: 49.8%;
+    top: 6%;
+    z-index: 1;
+
+}
+
+.vertical__arrow-sec{
+position: absolute;
+z-index: 1;
+right: 49.8%;
+bottom: 6%;
+
+}
+
+img.vertical__arrow-sec{
+    transform: rotate(180deg);
+} 
+   
+ .horizontal__arrow-first{
+    width: 40%;
+    position: absolute;
+    top: 49.7%;
+    left: 10px;
+    z-index: 1;
+}
+
+.horizontal__arrow-sec{
+    width: 40%;
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 49.7%;
+}
+
+img.horizontal__arrow-sec{
+    transform: rotate(180deg);
+}

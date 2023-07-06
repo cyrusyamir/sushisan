@@ -1,0 +1,114 @@
+.about-us {
+    display: flex;
+    min-height: 720px;
+    overflow: hidden;
+}
+
+.about-us__container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: var(--color-white);
+    position: relative;
+
+}
+
+.about-us__container div {
+
+    display: flex;
+    flex: 1;
+    align-items: center;
+
+    padding: 32px 64px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.display__img-pri {
+    border-bottom: 8px solid var(--color-creamson);
+    background-image: url('../../assets/about_bg1.png');
+}
+
+.display__img-sec {
+    background-image: url('../../assets/about_bg2.png');
+}
+
+.display__img-pri img {
+    height: 200px;
+    width: 225px;
+}
+
+.display__img-sec img {
+    height: 160px;
+    width: 240px;
+}
+
+.button__primary {
+    padding: 12px 32px;
+    min-height: 64px;
+    background-color: var(--secondary-color);
+    color: var(--color-white);
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.about-us__button {
+    position: absolute;
+    right: 0;
+    border-radius: 32px 0 0 32px;
+
+}
+
+.about-us__container-sec {
+    /* padding: 64px; */
+
+    display: flex;
+    flex: 1;
+}
+
+.aboust-us__discription {
+    padding: 64px;
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    /* align-items: center; */
+}
+
+.aboust-us__discription h2, .shushi__container h3 {
+    font-size: 62px;
+    font-weight: 600;
+    font-family: var(--playfair-display);
+    color: var(--secondary-color);
+}
+
+.aboust-us__discription p,
+.shushi__container p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--plus-jakarta-sans);
+    color: var(--primary-color);
+    opacity: .8;
+    letter-spacing: -.01em;
+}
+
+p.about-us__note {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--plus-jakarta-sans);
+    line-height: 36px;
+    /* letter-spacing: -.01em; */
+    color: var(--secondary-color);
+    opacity: .8;
+}
