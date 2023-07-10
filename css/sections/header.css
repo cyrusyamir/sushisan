@@ -4,6 +4,7 @@
     width: 50%;
     inset: 0;
     z-index: -1;
+    border: none;
 }
 
 .header__menu-mobile {
@@ -52,7 +53,6 @@
 
 .logo {
     margin-left: 50px;
-    font-size: 26px;
     font-family: var(--playfair-display);
     color: var(--color-white);
     font-size: 28px;
