@@ -117,6 +117,12 @@ a {
 
 /* START: about us media queries */
 @media screen and (max-width: 1028px) {
+
+    body::-webkit-scrollbar{
+        overflow: hidden;
+        display: none;
+    }
+
     .about-us {
         flex-direction: column;
     }
@@ -133,6 +139,12 @@ a {
     .about-us__button {
         display: none;
     }
+
+    .about-us__container {
+        margin-top: 28px;
+    }
+
+
 
 }
 
@@ -274,7 +286,7 @@ a {
         min-width: 100%;
     }
 
-    .hero__buttons {}
+    /* .hero__buttons {} */
 
     .card_num::after {
         display: none;
@@ -414,11 +426,26 @@ a {
     }
 
     .signup__form {
-        min-width: 340px;
+        min-width: 300px;
+        border: none;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        min-height: 120px;
+        gap: 20px;
     }
 
     .signup__form input[type="email"] {
         font-size: 18px;
+        border: 1px solid #fff;
+        padding: 18px;
+        border-radius: 46px;
+        font-size: 16px;
+        font-weight: 500;
+
     }
 
     .signup__form button {
