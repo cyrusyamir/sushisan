@@ -25,8 +25,11 @@
     gap: 24px;
 }
 
-.icons li{
-    list-style: none;
+.icons li {
+    list-style-type: none;
+}
+.icons li a{
+    /* list-style: none; */
     background-color: black;
     width: 42px;
     height: 42px;
@@ -35,12 +38,13 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    cursor: pointer;
     
 }
 
 .icons li img{
-    width: 35%;
-    height: 35%;
+    width: 65%;
+    height: 65%;
     object-fit: contain;
 }
 
