@@ -76,6 +76,7 @@
     margin-top: 50px;
     gap: 16px;
     overflow: auto;
+    min-height: 350px;
 
     /* scroll-behavior: smooth; */
 }
@@ -93,8 +94,8 @@
     align-items: center;
     justify-content: center;
     /* flex-wrap: wrap; */
-    padding: 36px;
-    min-width: 240px;
+    padding: 25px;
+    min-width: 215px;
     height: fit-content;
     border-radius: 38px;
 
@@ -104,11 +105,18 @@
 
 }
 
+.menu__catlogue-items:hover{
+    transform: scale(1.1);
+    transition: .4s ease-in-out;
+    background-color: rgba(165, 47, 47, 0.5);
+    box-shadow: 4px 4px 8px #ffffff40;
+}
+
 
 .menu__catlogue-items h5 {
     margin-top: 47px;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     font-family: var(--playfair-display);
     color: #fff;

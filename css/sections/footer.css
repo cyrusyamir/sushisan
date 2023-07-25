@@ -28,7 +28,7 @@
 .icons li {
     list-style-type: none;
 }
-.icons li a{
+.icons li{
     /* list-style: none; */
     background-color: black;
     width: 42px;
@@ -43,8 +43,8 @@
 }
 
 .icons li img{
-    width: 65%;
-    height: 65%;
+    width: 50%;
+    height: 50%;
     object-fit: contain;
 }
 
