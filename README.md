@@ -1,2 +1,12 @@
+[representaion](https://github.com/ARSHAD023/sushisan/blob/main/public/shushi-san.png)
+
+
 # sushisan
-modern looking sushi template website with help some of jsmastery for assets and additional guidence
+Moder looking food ordering/ resturent website.
+
+## REQUIRERMENT
+1. Node.js
+2. Vite w/o JS
+3. git
+
+
