@@ -1,4 +1,4 @@
-[representaion](https://github.com/ARSHAD023/sushisan/blob/main/public/shushi-san.png)
+![ALT representaion](https://github.com/ARSHAD023/sushisan/blob/main/public/shushi-san.png)
 
 
 # sushisan
