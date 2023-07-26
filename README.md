@@ -7,9 +7,16 @@ Moder looking food ordering/ resturent website.
 ## REQUIRERMENT
 ```bash
   npm i vite@latest (select vanila javascript on setup)
+```
+```bash
   npm i aos (for animations)
+```
+
+```bash
   node.js
-  git (for collab)
+```
+```bash
+  git init 
 ```
 
 
